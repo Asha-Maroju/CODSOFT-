@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #f4f2ef, #4f090d);
+    background: linear-gradient(to right, #807a6e, #4f090d);
+    
+    color: #efe9e9;
+}
+
+header {
+    background: #efefee;
+    color: #1b1919;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #f5eeee;
+}
+
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 1em;
+}
+
+#skills .skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+#skills .skills-list li {
+    background: #a36666;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(36, 31, 31, 0.1);
+}
+
+#projects .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+#projects .project {
+    background: #f1f1f1;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(77, 72, 72, 0.1);
+    width: calc(33% - 2em);
+    text-align: center;
+}
+
+#projects .project img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+#resume a {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    background: #1a16a1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resume a:hover {
+    background: #cec8c8;
+}
+
+#contact p {
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+#contact a {
+    color: #cfc8c8;
+    text-decoration: none;
+}
+
+footer {
+    background: #232121;
+    color: #f9f2f2;
+    text-align: center;
+    padding: 1em 0;
+}

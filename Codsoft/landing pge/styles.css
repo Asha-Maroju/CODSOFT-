@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to right, #f7b42c, #fc575e);
+    font-family: 'Algerian', sans-serif;
+    color: #f8f8f8;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #0f0e0e;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+#hero button {
+    background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 2em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #005bb5;
+}
+
+#features {
+    padding: 2em 2em;
+    background: linear-gradient(to right, #f7b42c, #fc575e);
+    color: #f8f8f8;
+}
+
+#features h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.features-grid {
+    display: flex;
+    gap: 1em;
+}
+
+.feature {
+    background-color: hsl(45, 40%, 2%);
+    padding: 1em;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(237, 233, 233, 0.1);
+}
+
+.feature h3 {
+    margin-top: 0;
+}
+
+#about {
+    
+    color: #0f0e0e;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.highlight-box {
+    background: linear-gradient(to right, #f7b42c, #fc575e);
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.highlight-box p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.highlight-box ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.highlight-box ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.highlight-box strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #0c0c0c;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
